@@ -1,5 +1,10 @@
-hsakug
-fnhilsuhg
-fsalhg
-nkksfhb
-jsugj
+pipeline{
+  agent any
+  stages{
+    stage("greetings"){
+      steps{
+        echo "hlo"
+      }
+    }
+  }
+}
